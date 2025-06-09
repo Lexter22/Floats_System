@@ -6,7 +6,7 @@
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles btnLogin.Click
         Dim password As String = "1234"
 
-        If txtPassword.Text = password Then
+        If txtPassword.Text = password And txtUsername.Text = "Rianne " Then
             MessageBox.Show("WELCOME RIANNE")
         Else
             MessageBox.Show("WRONG PASSWORD")
