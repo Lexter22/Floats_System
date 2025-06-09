@@ -7,9 +7,9 @@
         Dim password As String = "1234"
 
         If txtPassword.Text = password Then
-            MessageBox.Show("WELCOME RIANNE NIGGA")
+            MessageBox.Show("WELCOME RIANNE")
         Else
-            MessageBox.Show("WRONG PASSWORD NIGGA")
+            MessageBox.Show("WRONG PASSWORD")
 
         End If
     End Sub
