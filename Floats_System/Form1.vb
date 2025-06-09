@@ -4,8 +4,14 @@
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles btnLogin.Click
+        Dim password As String = "1234"
 
-        txtLoginMessage.Text = "WELCOME " + txtUsername.Text
+        If txtPassword.Text = password Then
+            MessageBox.Show("WELCOME RIANNE NIGGA")
+        Else
+            MessageBox.Show("WRONG PASSWORD NIGGA")
+
+        End If
     End Sub
 
     Private Sub Label1_Click_1(sender As Object, e As EventArgs) Handles lblPassword.Click
